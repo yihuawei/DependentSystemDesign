@@ -1,0 +1,1 @@
+/usr/bin/g++     CMakeFiles/run.dir/FileIO.cpp.o CMakeFiles/run.dir/Search.cpp.o CMakeFiles/run.dir/main.cpp.o  -o run 

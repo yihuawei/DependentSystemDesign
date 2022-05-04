@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/space/ywei51/DependentSystemDesign/FileIO.h
+vector
+-
+
+/space/ywei51/DependentSystemDesign/Search.cpp
+list
+-
+vector
+-
+iostream
+-
+Search.h
+/space/ywei51/DependentSystemDesign/Search.h
+
+/space/ywei51/DependentSystemDesign/Search.h
+FileIO.h
+/space/ywei51/DependentSystemDesign/FileIO.h
+
