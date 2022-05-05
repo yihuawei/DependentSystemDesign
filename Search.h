@@ -5,6 +5,7 @@
 
 namespace NAMESPACE{
 class BFS{
+public:
     void run(std::vector<std::vector<uint32_t> >& _adjList,
               std::vector<uint32_t>& _label);
 };

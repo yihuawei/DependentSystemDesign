@@ -9,5 +9,6 @@ CMakeFiles/run.dir/Search.cpp.o: ../Search.cpp
 CMakeFiles/run.dir/Search.cpp.o: ../Search.h
 
 CMakeFiles/run.dir/main.cpp.o: ../FileIO.h
+CMakeFiles/run.dir/main.cpp.o: ../Search.h
 CMakeFiles/run.dir/main.cpp.o: ../main.cpp
 
