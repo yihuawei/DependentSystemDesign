@@ -152,7 +152,7 @@ void printQueue(struct queue* q) {
   }
 }
 
-struct Graph* generateGraphAB(){
+struct Graph* generateGraphA(){
   struct Graph* graph = createGraph(9);
   addEdge(graph, 0, 1);
   addEdge(graph, 0, 2);
@@ -160,6 +160,12 @@ struct Graph* generateGraphAB(){
   addEdge(graph, 2, 3);
   addEdge(graph, 2, 8);
   addEdge(graph, 3, 8);
+
+  return graph;
+}
+
+struct Graph* generateGraphB(){
+  struct Graph* graph = createGraph(9);
   addEdge(graph, 3, 7);
   addEdge(graph, 3, 4);
   addEdge(graph, 3, 5);
@@ -172,8 +178,10 @@ struct Graph* generateGraphAB(){
 
 int main() {
   
-  struct Graph* graphAB = generateGraphAB();
-  bfs(graphAB, 0);
+  struct Graph* graphA = generateGraphA();
+  struct Graph* graphB = generateGraphB();
+  bfs(graphA, 0);
+  bfs(graphB, 3);
 
   return 0;
 }

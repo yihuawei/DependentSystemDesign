@@ -1,5 +1,5 @@
-SDC count     = 4
-Crash count   = 77
-Benign count  = 15
+SDC count     = 11
+Crash count   = 68
+Benign count  = 21
 Hang count    = 0
-Total Fi runs = 96
+Total Fi runs = 100

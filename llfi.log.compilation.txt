@@ -171,10 +171,14 @@ LLFI cannot inject faults in destination reg of   br label %34, !llfi_index !39
 The selected instruction   br label %34, !llfi_index !39does not have any valid registers for fault injection
 LLFI cannot inject faults in destination reg of   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3
 The selected instruction   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3does not have any valid registers for fault injection
-LLFI cannot inject faults in destination reg of   store i32 0, i32* %1, !llfi_index !3
-The selected instruction   store i32 0, i32* %1, !llfi_index !3does not have any valid registers for fault injection
-LLFI cannot inject faults in destination reg of   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !5
-The selected instruction   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !5does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3
+The selected instruction   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store i32 0, i32* %1, !llfi_index !4
+The selected instruction   store i32 0, i32* %1, !llfi_index !4does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !6
+The selected instruction   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !6does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store %struct.Graph* %3, %struct.Graph** %graphB, align 8, !llfi_index !8
+The selected instruction   store %struct.Graph* %3, %struct.Graph** %graphB, align 8, !llfi_index !8does not have any valid registers for fault injection
 
 
 Start of a pass
@@ -348,7 +352,11 @@ LLFI cannot inject faults in destination reg of   br label %34, !llfi_index !39
 The selected instruction   br label %34, !llfi_index !39does not have any valid registers for fault injection
 LLFI cannot inject faults in destination reg of   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3
 The selected instruction   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3does not have any valid registers for fault injection
-LLFI cannot inject faults in destination reg of   store i32 0, i32* %1, !llfi_index !3
-The selected instruction   store i32 0, i32* %1, !llfi_index !3does not have any valid registers for fault injection
-LLFI cannot inject faults in destination reg of   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !5
-The selected instruction   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !5does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3
+The selected instruction   store %struct.Graph* %1, %struct.Graph** %graph, align 8, !llfi_index !3does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store i32 0, i32* %1, !llfi_index !4
+The selected instruction   store i32 0, i32* %1, !llfi_index !4does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !6
+The selected instruction   store %struct.Graph* %2, %struct.Graph** %graphA, align 8, !llfi_index !6does not have any valid registers for fault injection
+LLFI cannot inject faults in destination reg of   store %struct.Graph* %3, %struct.Graph** %graphB, align 8, !llfi_index !8
+The selected instruction   store %struct.Graph* %3, %struct.Graph** %graphB, align 8, !llfi_index !8does not have any valid registers for fault injection
