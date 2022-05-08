@@ -26,8 +26,6 @@ void BFS::run(std::vector<std::vector<uint32_t> >& _adjList,
         // Dequeue a vertex from queue and print it
         uint32_t s = queue.front();
         count++;
-        if(s==2198)
-            printf("%d\n", count);
         queue.pop_front();
 
         // Get all adjacent vertices of the dequeued
